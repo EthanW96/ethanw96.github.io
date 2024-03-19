@@ -1,0 +1,16 @@
+.container {
+    display: flex; /* or inline-flex */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+@media screen and (max-width: 425px) {
+    img {
+        width: 51%;
+    }
+}
+@media screen and (min-width: 426px) {
+    img {
+        width: 33%;
+    }   
+}
